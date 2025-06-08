@@ -1535,6 +1535,16 @@ Prompting that asks the model to prioritize safety/helpfulness. “To counter ja
 
 **Adversarial training / Robust alignment**
 
+<details><summary>Vulnerability-Aware Alignment: Mitigating Uneven Forgetting in Harmful Fine-Tuning (2025) [<a href="https://arxiv.org/abs/2506.03850">Paper</a>]</summary>
+
+- “We reveal that some alignment examples are more prone to forgetting, and propose an vulnerability-aware alignment method to upweight and reinforce them to improve safety retention.”
+</details>
+
+<details><summary>PEARL: Towards Permutation-Resilient LLMs (2025) [<a href="https://openreview.net/pdf?id=txoJvjfI9w">Paper</a>]</summary>
+
+- “We propose an instruction tuning method that helps LLMs better handle set-structured inputs with order-independent elements — making them more robust in tasks such as in-context learning (ICL) and retrieval-augmented generation (RAG).”
+</details>
+
 <details><summary>Robustifying Safety-Aligned Large Language Models through Clean Data Curation (2024) [<a href="https://arxiv.org/abs/2405.19358">Paper</a>]</summary>
 
 - “We introduce an iterative process aimed at revising texts to reduce their perplexity as perceived by LLMs, while simultaneously preserving their text quality. By pre-training or fine-tuning LLMs with curated clean texts, we observe a notable improvement in LLM robustness regarding safety alignment against harmful queries. For instance, when pre-training LLMs using a crowdsourced dataset containing 5% harmful instances, adding an equivalent amount of curated texts significantly mitigates the likelihood of providing harmful responses in LLMs and reduces the attack success rate by 71%.”
